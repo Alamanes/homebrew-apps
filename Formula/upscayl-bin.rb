@@ -2,7 +2,6 @@ class UpscaylBin < Formula
   desc "Real-ESRGAN AI image upscaler (ncnn/Vulkan backend, native arm64)"
   homepage "https://github.com/upscayl/upscayl-ncnn"
   url "https://github.com/upscayl/upscayl-ncnn/releases/download/20251207-174704/upscayl-bin-20251207-174704-macos.zip"
-  version "20251207-174704"
   sha256 "277419791281a56eae0c739c70120b974d7267cf7c2de8e86dc09798d4b314db"
   license "MIT"
 

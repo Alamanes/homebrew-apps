@@ -16,7 +16,7 @@ class Md2pic < Formula
     EOS
   end
 
-  def post_install
+  def post_install_steps
     ohai "Note: md2pic requires Google Chrome or Chromium to render images."
     ohai "If not installed, run: brew install --cask google-chrome"
   end

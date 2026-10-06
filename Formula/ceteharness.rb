@@ -4,7 +4,6 @@ class Ceteharness < Formula
   url "file:///Users/orangerin/Desktop/Code/ceteharness/dist/ceteharness-0.1.0.tar.gz"
   sha256 "72f63f816ac567d301e9bfd228723f3b803ed3aa449dab3c49a54841eba3615b"
   license "MIT"
-  version "0.1.0"
 
   depends_on "rust" => :build
 
