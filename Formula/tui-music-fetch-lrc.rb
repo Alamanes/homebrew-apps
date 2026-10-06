@@ -1,10 +1,10 @@
 class TuiMusicFetchLrc < Formula
   desc "Batch download synced LRC lyrics (LRCLIB + NetEase fallback)"
-  homepage "https://github.com/Shiorangerin/tui-music"
-  url "https://github.com/Shiorangerin/tui-music/archive/refs/tags/v0.1.25.tar.gz"
+  homepage "https://github.com/Alamanes/tui-music"
+  url "https://github.com/Alamanes/tui-music/archive/refs/tags/v0.1.25.tar.gz"
   sha256 "343713871e628da5e163aeb2e613e004e5bed3d52bea73cabba4db6c96e00f7c"
   license "MIT"
-  head "https://github.com/Shiorangerin/tui-music.git", branch: "main"
+  head "https://github.com/Alamanes/tui-music.git", branch: "main"
 
   depends_on "python@3.12" => :optional
 
